@@ -1,5 +1,5 @@
 {
-    "name": "napp/xray-laravel",
+    "name": "Futurefuel/xray-laravel",
     "description": "AWS X-Ray for Laravel applications.",
     "keywords": [
         "xray",
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Napp\\Xray\\": "src/"
+            "Futurefuel\\Xray\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Napp\\Xray\\Tests\\": "tests/"
+            "Futurefuel\\Xray\\Tests\\": "tests/"
         }
     },
     "config": {
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Napp\\Xray\\XrayServiceProvider"
+                "Futurefuel\\Xray\\XrayServiceProvider"
             ],
             "aliases": {
-                "Xray": "Napp\\Xray\\Facades\\Xray"
+                "Xray": "Futurefuel\\Xray\\Facades\\Xray"
             }
         }
     }
