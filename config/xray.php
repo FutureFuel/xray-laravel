@@ -14,7 +14,7 @@ return [
     | Supported classes: "APISegmentSubmitter", "DaemonSegmentSubmitter"
     |
     */
-    'submitter' => \Napp\Xray\Submission\APISegmentSubmitter::class,
+    'submitter' => \Futurefuel\Xray\Submission\APISegmentSubmitter::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -25,7 +25,7 @@ return [
     | Supported classes: "AuthIdentifier"
     |
     */
-    'user-resolver' => \Napp\Xray\Resolvers\AuthIdentifier::class,
+    'user-resolver' => \Futurefuel\Xray\Resolvers\AuthIdentifier::class,
 
     /*
     |--------------------------------------------------------------------------

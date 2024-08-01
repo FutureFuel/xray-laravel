@@ -25,7 +25,7 @@ use Symfony\Component\HttpFoundation\Request;
  * @method static void submitCliTracer()
  * @method static void addRequestFilterCallback(callable $callback)
  *
- * @see \Napp\Xray\Xray
+ * @see \Futurefuel\Xray\Xray
  */
 class Xray extends Facade
 {

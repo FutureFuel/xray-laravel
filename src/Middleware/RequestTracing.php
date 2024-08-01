@@ -10,7 +10,7 @@ use Futurefuel\Xray\Xray;
 class RequestTracing
 {
     /**
-     * @var \Napp\Xray\Xray
+     * @var \Futurefuel\Xray\Xray
      */
     private $xray;
 

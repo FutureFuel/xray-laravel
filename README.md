@@ -26,14 +26,14 @@ Each element has extra information, such as the database query stack trace.
 1. Install the package via composer:
 
 ```bash
-composer require napp/xray-laravel
+composer require futurefuel/xray-laravel
 ```
 
 2. Add middleware to the top of the global middleware in `App\Http\Kernel.php`.
 
 ```php
 protected $middleware = [
-    \Napp\Xray\Middleware\RequestTracing::class, // here
+    \Futurefuel\Xray\Middleware\RequestTracing::class, // here
 
     \App\Http\Middleware\TrustProxies::class,
     \App\Http\Middleware\CheckForMaintenanceMode::class,
@@ -48,7 +48,7 @@ protected $middleware = [
     /*
      * Laravel Framework Service Providers...
      */
-    Napp\Xray\XrayServiceProvider::class, // here
+    Futurefuel\Xray\XrayServiceProvider::class, // here
 
     Illuminate\Auth\AuthServiceProvider::class,
     Illuminate\Broadcasting\BroadcastServiceProvider::class,
@@ -61,7 +61,7 @@ Optionally, you can add the facade in `config/app.php`.
 ```php
 'aliases' => [
     // ...
-    'Xray' => \Napp\Xray\Facades\Xray::class,
+    'Xray' => \Futurefuel\Xray\Facades\Xray::class,
 ],
 ```
 
@@ -180,9 +180,9 @@ class AppServiceProvider extends ServiceProvider
 
 ## Daemon support
 
-The X-Ray daemon is automatically run in a Lambda environment. Use this over the default `Napp\Xray\Submission\APISegmentSubmitter` to relay requests to Amazon X-Ray.
+The X-Ray daemon is automatically run in a Lambda environment. Use this over the default `Futurefuel\Xray\Submission\APISegmentSubmitter` to relay requests to Amazon X-Ray.
 
-Firstly, publish the X-Ray config and then update the submitter in `config/xray.php` to `\Napp\Xray\Submission\DaemonSegmentSubmitter::class`
+Firstly, publish the X-Ray config and then update the submitter in `config/xray.php` to `\Futurefuel\Xray\Submission\DaemonSegmentSubmitter::class`
 
 ```console
 php artisan vendor:publish --tag=xray-config
@@ -191,7 +191,7 @@ php artisan vendor:publish --tag=xray-config
 ```php
 # config/xray.php
 ...
- 'submitter' => \Napp\Xray\Submission\DaemonSegmentSubmitter::class,
+ 'submitter' => \Futurefuel\Xray\Submission\DaemonSegmentSubmitter::class,
 ...
 ```
 

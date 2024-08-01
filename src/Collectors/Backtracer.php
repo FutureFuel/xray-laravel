@@ -45,7 +45,7 @@ trait Backtracer
         $excludedPaths = [
             'Illuminate/Database',
             'Illuminate/Events',
-            'Napp/Xray',
+            'Futurefuel/Xray',
         ];
 
         $normalizedPath = str_replace('\\', '/', $className);
