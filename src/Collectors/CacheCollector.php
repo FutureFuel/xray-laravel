@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Collectors;
+namespace Futurefuel\Xray\Collectors;
 
 use Illuminate\Cache\Events\CacheHit;
 use Illuminate\Cache\Events\CacheMissed;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray;
+namespace Futurefuel\Xray;
 
-use Napp\Xray\Collectors\SegmentCollector;
+use Futurefuel\Xray\Collectors\SegmentCollector;
 use Pkerrigan\Xray\Segment;
 use Pkerrigan\Xray\Trace;
 use Symfony\Component\HttpFoundation\Request;

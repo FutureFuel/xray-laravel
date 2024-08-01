@@ -1,14 +1,14 @@
 <?php
 
-namespace Napp\Xray\Tests\Collectors;
+namespace Futurefuel\Xray\Tests\Collectors;
 
 use Illuminate\Config\Repository;
 use Illuminate\Console\Events\CommandFinished;
 use Illuminate\Console\Events\CommandStarting;
 use Illuminate\Container\Container;
 use Illuminate\Foundation\Application;
-use Napp\Xray\Collectors\CommandCollector;
-use Napp\Xray\Segments\Trace;
+use Futurefuel\Xray\Collectors\CommandCollector;
+use Futurefuel\Xray\Segments\Trace;
 use Pkerrigan\Xray\Segment;
 use Pkerrigan\Xray\Submission\SegmentSubmitter;
 use PHPUnit\Framework\TestCase;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Collectors;
+namespace Futurefuel\Xray\Collectors;
 
 use Illuminate\Console\Events\CommandFinished;
 use Illuminate\Console\Events\CommandStarting;
-use Napp\Xray\Segments\JobSegment;
+use Futurefuel\Xray\Segments\JobSegment;
 
 class CommandCollector extends EventsCollector
 {

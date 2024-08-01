@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Tests\Stubs;
+namespace Futurefuel\Xray\Tests\Stubs;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 

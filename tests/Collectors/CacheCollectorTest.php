@@ -1,11 +1,11 @@
 <?php
 
-namespace Napp\Xray\Tests\Collectors;
+namespace Futurefuel\Xray\Tests\Collectors;
 
 use Illuminate\Cache\Events\CacheHit;
 use Monolog\Test\TestCase;
 use \Illuminate\Foundation\Application;
-use Napp\Xray\Collectors\CacheCollector;
+use Futurefuel\Xray\Collectors\CacheCollector;
 use Pkerrigan\Xray\Segment;
 
 class CacheCollectorTest extends TestCase

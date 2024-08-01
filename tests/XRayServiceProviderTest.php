@@ -1,6 +1,6 @@
 <?php
 
-namespace Napp\Xray\Tests;
+namespace Futurefuel\Xray\Tests;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Config\Repository;
@@ -8,13 +8,13 @@ use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Foundation\Application;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 use Mockery\MockInterface;
-use Napp\Xray\Collectors\DatabaseQueryCollector;
-use Napp\Xray\Collectors\FrameworkCollector;
-use Napp\Xray\Collectors\JobCollector;
-use Napp\Xray\Collectors\RouteCollector;
-use Napp\Xray\Collectors\ViewCollector;
-use Napp\Xray\Xray;
-use Napp\Xray\XrayServiceProvider;
+use Futurefuel\Xray\Collectors\DatabaseQueryCollector;
+use Futurefuel\Xray\Collectors\FrameworkCollector;
+use Futurefuel\Xray\Collectors\JobCollector;
+use Futurefuel\Xray\Collectors\RouteCollector;
+use Futurefuel\Xray\Collectors\ViewCollector;
+use Futurefuel\Xray\Xray;
+use Futurefuel\Xray\XrayServiceProvider;
 use Symfony\Component\HttpFoundation\Request;
 
 class XRayServiceProviderTest extends MockeryTestCase

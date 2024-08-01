@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Collectors;
+namespace Futurefuel\Xray\Collectors;
 
 use Illuminate\Contracts\Queue\Job;
 use Illuminate\Queue\Events\JobExceptionOccurred;
 use Illuminate\Queue\Events\JobFailed;
 use Illuminate\Queue\Events\JobProcessed;
 use Illuminate\Queue\Events\JobProcessing;
-use Napp\Xray\Segments\JobSegment;
+use Futurefuel\Xray\Segments\JobSegment;
 
 class JobCollector extends EventsCollector
 {

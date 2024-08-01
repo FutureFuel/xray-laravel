@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Segments;
+namespace Futurefuel\Xray\Segments;
 
 use Pkerrigan\Xray\SqlSegment as BaseSegment;
 

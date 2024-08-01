@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Resolvers;
+namespace Futurefuel\Xray\Resolvers;
 
 use Illuminate\Support\Facades\Auth;
-use Napp\Xray\Resolvers\Contracts\ResolvesUser;
+use Futurefuel\Xray\Resolvers\Contracts\ResolvesUser;
 
 class AuthIdentifier implements ResolvesUser
 {

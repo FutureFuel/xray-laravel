@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Collectors;
+namespace Futurefuel\Xray\Collectors;
 
-use Napp\Xray\Resolvers\AuthIdentifier;
-use Napp\Xray\Segments\TimeSegment;
-use Napp\Xray\Segments\Trace;
+use Futurefuel\Xray\Resolvers\AuthIdentifier;
+use Futurefuel\Xray\Segments\TimeSegment;
+use Futurefuel\Xray\Segments\Trace;
 use Pkerrigan\Xray\Segment;
 use Symfony\Component\HttpFoundation\Request;
 

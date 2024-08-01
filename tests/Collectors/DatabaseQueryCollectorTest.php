@@ -1,11 +1,11 @@
 <?php
 
-namespace Napp\Xray\Tests\Collectors;
+namespace Futurefuel\Xray\Tests\Collectors;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Foundation\Application;
-use Napp\Xray\Collectors\DatabaseQueryCollector;
+use Futurefuel\Xray\Collectors\DatabaseQueryCollector;
 use PHPUnit\Framework\TestCase;
 use Pkerrigan\Xray\Segment;
 

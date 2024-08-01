@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray;
+namespace Futurefuel\Xray;
 
 use Illuminate\Support\ServiceProvider;
-use Napp\Xray\Collectors\CacheCollector;
-use Napp\Xray\Collectors\CommandCollector;
-use Napp\Xray\Collectors\DatabaseQueryCollector;
-use Napp\Xray\Collectors\FrameworkCollector;
-use Napp\Xray\Collectors\JobCollector;
-use Napp\Xray\Collectors\RouteCollector;
-use Napp\Xray\Collectors\ViewCollector;
+use Futurefuel\Xray\Collectors\CacheCollector;
+use Futurefuel\Xray\Collectors\CommandCollector;
+use Futurefuel\Xray\Collectors\DatabaseQueryCollector;
+use Futurefuel\Xray\Collectors\FrameworkCollector;
+use Futurefuel\Xray\Collectors\JobCollector;
+use Futurefuel\Xray\Collectors\RouteCollector;
+use Futurefuel\Xray\Collectors\ViewCollector;
 
 class XrayServiceProvider extends ServiceProvider
 {

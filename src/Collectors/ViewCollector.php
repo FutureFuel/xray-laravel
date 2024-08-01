@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Collectors;
+namespace Futurefuel\Xray\Collectors;
 
 class ViewCollector extends EventsCollector
 {

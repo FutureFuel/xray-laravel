@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Tests;
+namespace Futurefuel\Xray\Tests;
 
-use Napp\Xray\Segments\JobSegment;
+use Futurefuel\Xray\Segments\JobSegment;
 use PHPUnit\Framework\TestCase;
 
 class JobSegmentTest extends TestCase

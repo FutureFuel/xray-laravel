@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Collectors;
+namespace Futurefuel\Xray\Collectors;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Database\Query\Expression;
-use Napp\Xray\Segments\SqlSegment;
+use Futurefuel\Xray\Segments\SqlSegment;
 
 class DatabaseQueryCollector extends EventsCollector
 {

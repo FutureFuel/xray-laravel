@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Tests;
+namespace Futurefuel\Xray\Tests;
 
-use Napp\Xray\Segments\SqlSegment;
+use Futurefuel\Xray\Segments\SqlSegment;
 use PHPUnit\Framework\TestCase;
 
 class SqlSegmentTest extends TestCase

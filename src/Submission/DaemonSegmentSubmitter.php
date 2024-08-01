@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Submission;
+namespace Futurefuel\Xray\Submission;
 
 use Pkerrigan\Xray\Segment;
 use Pkerrigan\Xray\Submission\DaemonSegmentSubmitter as SubmissionDaemonSegmentSubmitter;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Napp\Xray\Tests\Facades;
+namespace Futurefuel\Xray\Tests\Facades;
 
-use Napp\Xray\Collectors\SegmentCollector;
-use Napp\Xray\Xray;
+use Futurefuel\Xray\Collectors\SegmentCollector;
+use Futurefuel\Xray\Xray;
 use Symfony\Component\HttpFoundation\Request;
 use PHPUnit\Framework\TestCase;
 

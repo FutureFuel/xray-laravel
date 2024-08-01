@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Resolvers\Contracts;
+namespace Futurefuel\Xray\Resolvers\Contracts;
 
 interface ResolvesUser
 {

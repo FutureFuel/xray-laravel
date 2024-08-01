@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Middleware;
+namespace Futurefuel\Xray\Middleware;
 
 use Closure;
-use Napp\Xray\Xray;
+use Futurefuel\Xray\Xray;
 
 class RequestTracing
 {

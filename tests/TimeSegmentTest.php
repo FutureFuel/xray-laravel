@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Tests;
+namespace Futurefuel\Xray\Tests;
 
-use Napp\Xray\Segments\TimeSegment;
+use Futurefuel\Xray\Segments\TimeSegment;
 use PHPUnit\Framework\TestCase;
 
 class TimeSegmentTest extends TestCase

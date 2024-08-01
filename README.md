@@ -110,7 +110,7 @@ Xray::endSegment('MyCustomLogic');
 Another use case is to inspect some heavy php side parsing of data.
 
 ```php
-use Napp\Xray\Facades\Xray;
+use Futurefuel\Xray\Facades\Xray;
 
 class XMLParser
 {
@@ -159,7 +159,7 @@ When LaravelXray is booting, the request is checked against each registered call
 
 ```php
 use Symfony\Component\HttpFoundation\Request;
-use Napp\Xray\Facades\Xray;
+use Futurefuel\Xray\Facades\Xray;
 
 class AppServiceProvider extends ServiceProvider
 {

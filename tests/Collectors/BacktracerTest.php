@@ -1,8 +1,8 @@
 <?php
 
-namespace Napp\Xray\Tests\Collectors;
+namespace Futurefuel\Xray\Tests\Collectors;
 
-use Napp\Xray\Collectors\Backtracer;
+use Futurefuel\Xray\Collectors\Backtracer;
 use PHPUnit\Framework\TestCase;
 class BacktracerTest extends TestCase
 {

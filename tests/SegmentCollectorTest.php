@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Napp\Xray\Tests;
+namespace Futurefuel\Xray\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use Napp\Xray\Tests\Stubs\CustomUserResolver;
-use Napp\Xray\Tests\Stubs\User;
-use Napp\Xray\Collectors\SegmentCollector;
-use Napp\Xray\XrayServiceProvider;
+use Futurefuel\Xray\Tests\Stubs\CustomUserResolver;
+use Futurefuel\Xray\Tests\Stubs\User;
+use Futurefuel\Xray\Collectors\SegmentCollector;
+use Futurefuel\Xray\XrayServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class SegmentCollectorTest extends TestCase
